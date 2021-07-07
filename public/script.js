@@ -2,7 +2,7 @@
 const socket = io("/"); //the / namespace/endpoint
 const videoGrid = document.getElementById("video-grid");
 const myPeer = new Peer(undefined, {
-  //path: '/peerjs',
+  path: '/peerjs',
   host: "/",
   port: "443",
 });
